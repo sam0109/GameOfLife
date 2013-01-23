@@ -14,8 +14,30 @@ public class Citizen {
     }
     public void update () {
         int neighbors = 0;
-        if (localgameboard[row+1][column].alive = 1) {
+        if (localgameboard[row-1][column-1].alive = true) {
             neighbors++;
         }
+        if (localgameboard[row-1][column].alive = true) {
+            neighbors++;
+        }
+        if (localgameboard[row-1][column+1].alive = true) {
+            neighbors++;
+        }
+        if (localgameboard[row][column-1].alive = true) {
+            neighbors++;
+        }
+        if (localgameboard[row][column+1].alive = true) {
+            neighbors++;
+        }
+        if (localgameboard[row+1][column-1].alive = true) {
+            neighbors++;
+        }
+        if (localgameboard[row+1][column].alive = true) {
+            neighbors++;
+        }
+        if (localgameboard[row+1][column+1].alive = true) {
+            neighbors++;
+        }
+        if (neighbors >)
     }
 }
