@@ -38,6 +38,15 @@ public class Citizen {
         if (localgameboard[row+1][column+1].alive = true) {
             neighbors++;
         }
-        if (neighbors >)
+        
+        if (neighbors <= 1) {
+            alive = false;
+        }
+        else if (neighbors == 3) {
+            alive = true;
+        }
+        else if (neighbors > 3){
+            alive = false;
+        }
     }
 }
