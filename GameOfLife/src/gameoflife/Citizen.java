@@ -10,32 +10,32 @@ public class Citizen {
     Citizen (int i, int j, Citizen[][] gameboard) {
         row = i;
         column  = j;
-        gameboard = localgameboard;
+        localgameboard = gameboard;
     }
     public void update () {
         int neighbors = 0;
-        if (localgameboard[row-1][column-1].alive = true) {
+        if (localgameboard[row-1][column-1].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row-1][column].alive = true) {
+        if (localgameboard[row-1][column].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row-1][column+1].alive = true) {
+        if (localgameboard[row-1][column+1].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row][column-1].alive = true) {
+        if (localgameboard[row][column-1].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row][column+1].alive = true) {
+        if (localgameboard[row][column+1].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row+1][column-1].alive = true) {
+        if (localgameboard[row+1][column-1].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row+1][column].alive = true) {
+        if (localgameboard[row+1][column].alive == true) {
             neighbors++;
         }
-        if (localgameboard[row+1][column+1].alive = true) {
+        if (localgameboard[row+1][column+1].alive == true) {
             neighbors++;
         }
         
