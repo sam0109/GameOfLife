@@ -2,7 +2,7 @@
 package gameoflife;
 
 public class Citizen {
-    boolean alive;
+    public boolean alive;
     int row;
     int column;
     Citizen[][] localgameboard = null;
